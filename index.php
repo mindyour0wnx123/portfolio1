@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>RANNCES MICO C. MALLARI | Junior Developer</title>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">MM</div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="primary-navigation">
+            <li><a href="#home" class="nav-link">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+            <li><a href="#skills" class="nav-link">SKILLS</a></li>
+            <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+            <li><a href="#credentials" class="nav-link">CREDENTIALS</a></li>
+            <li><a href="#contact" class="nav-link contact-btn">CONTACT</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="content-text">
+        <div class="content"> 
+            <h2>Hi, I am</h2>
+            <h1>RANNCES MICO C. MALLARI</h1>
+            <h3>IT GRADUATE / JUNIOR DEVELOPER</h3>
+            <p>Designed and built modern web applications alongside cross-platform mobile experiences.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#contact" class="btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+    <div class="section-container">
+        <img src="./img/DSC00077.jpg" alt="toga" class="about-image">
+        <div class="about-content">
+            <div class="about-card">
+                <h2>ABOUT ME</h2>
+                <p>Motivated IT graduate and junior developer intern with a strong interest in full-stack web and cross-platform mobile development. Experienced in developing end-to-end applications, including e-commerce platforms and real-time IoT monitoring systems. Passionate about learning new technologies, improving technical skills, and turning ideas and requirements into practical, user-friendly digital solutions.</p>
+            </div>
+
+            <div class="about-card">
+                <h2>EDUCATION</h2>
+                <p><strong>Bachelor of Science in Information Technology (BSIT)</strong><br>Our Lady of Fatima University, Quezon City, Philippines<br><em>Aug 2022 – 2026</em></p>
+            </div>
+
+            <div class="about-card">
+                <h2>OBJECTIVE</h2>
+                <p>To apply and further develop my skills in web and mobile development by contributing to innovative projects that solve real-world problems. I aim to gain valuable industry experience, continuously learn new technologies, and create reliable and user-friendly digital solutions that can make a positive impact.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>FEATURED PROJECTS</h2>
+            <p>Showcase of recent work and innovative solutions</p>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-label">JULY 2025 - DEC 2025</span>
+                </div>
+                <h3>HydroFarm Monitoring System (IoT-Based)</h3>
+                <ul class="project-highlights">
+                    <li>Developed an IoT system for monitoring temperature, humidity, and pH levels in hydroponic environments.</li>
+                    <li>Built a real-time web dashboard and integrated a trained model to identify healthy environmental thresholds.</li>
+                </ul>
+                <div class="tech-tags">
+                    <span>IoT</span>
+                    <span>Real-time Dashboard</span>
+                    <span>Machine Learning</span>
+                    <span>Hydroponics</span>
+                </div>
+                <button class="screenshot-button" type="button" data-project="hydrofarm">View screenshots <span aria-hidden="true">&rarr;</span></button>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-label">OCT 2025 - DEC 2025</span>
+                </div>
+                <h3>E-commerce Web Application</h3>
+                <ul class="project-highlights">
+                    <li>Developed a full-stack e-commerce platform with product management, authentication, and secure order processing.</li>
+                    <li>Implemented checkout, order history, and order tracking functionality.</li>
+                </ul>
+                <div class="tech-tags">
+                    <span>Full Stack</span>
+                    <span>Authentication</span>
+                    <span>Checkout</span>
+                    <span>Order Tracking</span>
+                </div>
+                <button class="screenshot-button" type="button" data-project="ecommerce">View screenshots <span aria-hidden="true">&rarr;</span></button>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-label">JAN 2026 - MAY 2026</span>
+                </div>
+                <h3>Educational Mobile Application</h3>
+                <ul class="project-highlights">
+                    <li>Developed an educational mobile app for children to learn letters, numbers, colors, and animals.</li>
+                    <li>Implemented tracing activities and interactive mini-games for learning.</li>
+                </ul>
+                <div class="tech-tags">
+                    <span>Mobile App</span>
+                    <span>Educational</span>
+                    <span>Tracing Activities</span>
+                    <span>Mini-games</span>
+                </div>
+                <button class="screenshot-button" type="button" data-project="little-explorer">View screenshots <span aria-hidden="true">&rarr;</span></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="screenshot-modal" id="screenshot-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="screenshot-modal-title">
+    <div class="screenshot-modal-content">
+        <div class="screenshot-modal-header">
+            <div>
+                <span class="project-label">PROJECT SCREENSHOTS</span>
+                <h2 id="screenshot-modal-title">Screenshots</h2>
+            </div>
+            <button class="modal-close" type="button" aria-label="Close screenshots">&times;</button>
+        </div>
+        <div class="modal-gallery">
+            <img src="projects/Hydrofarm-project1/dashboard.jpg" data-project="hydrofarm" alt="HydroFarm monitoring dashboard">
+            <img src="projects/Hydrofarm-project1/trainmodel.jpg" data-project="hydrofarm" alt="HydroFarm trained model screen">
+            <img src="projects/Hydrofarm-project1/yearly%20Overview.jpg" data-project="hydrofarm" alt="HydroFarm yearly overview">
+            <img src="projects/E-commerce-project2/landingpage.jpg" data-project="ecommerce" alt="E-commerce landing page">
+            <img src="projects/E-commerce-project2/landingpage2.jpg" data-project="ecommerce" alt="E-commerce storefront">
+            <img src="projects/E-commerce-project2/shop1.jpg" data-project="ecommerce" alt="E-commerce shop page">
+            <img src="projects/E-commerce-project2/about.jpg" data-project="ecommerce" alt="E-commerce about page">
+            <img src="projects/E-commerce-project2/cart.jpg" data-project="ecommerce" alt="E-commerce cart">
+            <img src="projects/E-commerce-project2/orderhistory.jpg" data-project="ecommerce" alt="E-commerce order history">
+            <img src="projects/LittleExplorer-project3/landing.jpg" data-project="little-explorer" alt="Little Explorer landing screen">
+            <img src="projects/LittleExplorer-project3/login.jpg" data-project="little-explorer" alt="Little Explorer login screen">
+            <img src="projects/LittleExplorer-project3/123discovery.jpg" data-project="little-explorer" alt="Little Explorer numbers discovery activity">
+            <img src="projects/LittleExplorer-project3/123lesson.jpg" data-project="little-explorer" alt="Little Explorer numbers lesson">
+            <img src="projects/LittleExplorer-project3/letterexplorer.jpg" data-project="little-explorer" alt="Little Explorer letters activity">
+            <img src="projects/LittleExplorer-project3/letterquiz.jpg" data-project="little-explorer" alt="Little Explorer letter quiz">
+            <img src="projects/LittleExplorer-project3/matchtheshapes.jpg" data-project="little-explorer" alt="Little Explorer shape matching game">
+            <img src="projects/LittleExplorer-project3/matchtheshapeslesson.jpg" data-project="little-explorer" alt="Little Explorer shape lesson">
+            <img src="projects/LittleExplorer-project3/worldofcolors.jpg" data-project="little-explorer" alt="Little Explorer colors activity">
+            <img src="projects/LittleExplorer-project3/wordofcolorslesson.jpg" data-project="little-explorer" alt="Little Explorer colors lesson">
+        </div>
+    </div>
+</div>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>Languages, frameworks, and tools I work with</p>
+        </div>
+        
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h3>LANGUAGES &amp; WEB</h3>
+                <div class="skill-items">
+                    <div class="skill-item">HTML5</div>
+                    <div class="skill-item">CSS3</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Kotlin</div>
+                    <div class="skill-item">XML</div>
+                    <div class="skill-item">PHP</div>
+                </div>
+            </div>
+
+            <div class="skill-group">
+                <h3>DATABASE</h3>
+                <div class="skill-items">
+                    <div class="skill-item">MySQL</div>
+                </div>
+            </div>
+
+            <div class="skill-group">
+                <h3>OTHER</h3>
+                <div class="skill-items">
+                    <div class="skill-item">Basic Networking</div>
+                    <div class="skill-item">Basic Cybersecurity</div>
+                    <div class="skill-item">Troubleshooting</div>
+                    <div class="skill-item">Data Structures &amp; Algorithms</div>
+                    <div class="skill-item">Object-Oriented Programming</div>
+                    <div class="skill-item">Web Development</div>
+                    <div class="skill-item">App Development</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>EXPERIENCE</h2>
+            <p>Professional journey and key achievements</p>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Feb 2026 - May 2026</div>
+                    <h3>Jr. Developer Intern</h3>
+                    <p class="company">EC Solutions & Enterprise</p>
+                    <p>Spearheaded development of web and mobile applications. Managed full SDLC and delivered features on schedule. Collaborated with cross-functional teams to implement scalable solutions.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Feb 2026 - May 2026</div>
+                    <h3>UI/UX Designer & Frontend Developer</h3>
+                    <p class="company">EC Solutions & Enterprise</p>
+                    <p>Designed and developed user-centric interfaces for multiple projects. Focused on responsive design, accessibility, and modern web standards.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Feb 2022 - May 2023</div>
+                    <h3>Quality Assurance Analyst</h3>
+                    <p class="company">EC Solutions & Enterprise</p>
+                    <p>Completed intensive training in full-stack web development. Developed foundational skills in HTML, CSS, JavaScript, and backend technologies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Credentials & Recognition Section -->
+<section id="credentials" class="credentials-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>CREDENTIALS &amp; RECOGNITION</h2>
+            <p>Professional certifications and continuous learning milestones</p>
+        </div>
+
+        <div class="credentials-grid">
+            <a class="credential-card" href="certificate/Introduction%20to%20Cybersecurity.pdf" target="_blank" rel="noopener">
+                <img src="certificate/Introduction%20to%20Cybersecurity.png" alt="Introduction to Cybersecurity certificate">
+                <div class="credential-details">
+                    <span class="credential-category">CYBERSECURITY</span>
+                    <h3>Introduction to Cybersecurity</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/Ethical%20Hacker.pdf" target="_blank" rel="noopener">
+                <img src="certificate/Ethical%20Hacker.png" alt="Ethical Hacker certificate">
+                <div class="credential-details">
+                    <span class="credential-category">CYBERSECURITY</span>
+                    <h3>Ethical Hacker</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/ENDPOINTSECURITY.pdf" target="_blank" rel="noopener">
+                <img src="certificate/EndpointSecurity.png" alt="Endpoint Security certificate">
+                <div class="credential-details">
+                    <span class="credential-category">CYBERSECURITY</span>
+                    <h3>Endpoint Security</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/Introduction%20to%20IoT.pdf" target="_blank" rel="noopener">
+                <img src="certificate/Introduction%20to%20IoT.png" alt="Introduction to IoT certificate">
+                <div class="credential-details">
+                    <span class="credential-category">TECHNOLOGY</span>
+                    <h3>Introduction to IoT</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/Introduction%20to%20Modern%20AI.pdf" target="_blank" rel="noopener">
+                <img src="certificate/Introduction%20to%20Modern%20AI.png" alt="Introduction to Modern AI certificate">
+                <div class="credential-details">
+                    <span class="credential-category">ARTIFICIAL INTELLIGENCE</span>
+                    <h3>Introduction to Modern AI</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/CCNAIntroduction%20to%20Networks.pdf" target="_blank" rel="noopener">
+                <img src="certificate/CCNAIntroduction%20to%20Networks.png" alt="CCNA Introduction to Networks certificate">
+                <div class="credential-details">
+                    <span class="credential-category">NETWORKING</span>
+                    <h3>CCNA: Introduction to Networks</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/Networking%20Basics.pdf" target="_blank" rel="noopener">
+                <img src="certificate/Networking%20Basics.png" alt="Networking Basics certificate">
+                <div class="credential-details">
+                    <span class="credential-category">NETWORKING</span>
+                    <h3>Networking Basics</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/Networking%20Devices%20and%20Initial%20Configuration.pdf" target="_blank" rel="noopener">
+                <img src="certificate/Networking%20Devices%20and%20Initial%20Configuration.png" alt="Networking Devices and Initial Configuration certificate">
+                <div class="credential-details">
+                    <span class="credential-category">NETWORKING</span>
+                    <h3>Networking Devices and Initial Configuration</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/LegacyResponsiveWebDesignV8.png" target="_blank" rel="noopener">
+                <img src="certificate/LegacyResponsiveWebDesignV8.png" alt="Legacy Responsive Web Design certificate">
+                <div class="credential-details">
+                    <span class="credential-category">WEB DEVELOPMENT</span>
+                    <h3>Legacy Responsive Web Design</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+
+            <a class="credential-card" href="certificate/NetworkTechnicianCareerPathUpdate20260824-8-wlsfzd.pdf" target="_blank" rel="noopener">
+                <img src="certificate/Network Technician Career Path.png" alt="Network Technician Career Path certificate">
+                <div class="credential-details">
+                    <span class="credential-category">NETWORKING</span>
+                    <h3>Network Technician Career Path</h3>
+                    <span class="credential-action">View certificate &rarr;</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>GET IN TOUCH</h2>
+            <p>Let's collaborate and create something amazing</p>
+        </div>
+        
+        <div class="contact-content">
+            <div class="contact-box">
+                <h3>Email</h3>
+                <a href="mailto:micomallari25@gmail.com">micomallari25@gmail.com</a>
+            </div>
+            <div class="contact-box">
+                <h3>Phone</h3>
+                <p>+639759859514</p>
+            </div>
+            <div class="contact-box">
+                <h3>Location</h3>
+                <p>Quezon City, Philippines</p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com" target="_blank" class="social-link">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank" class="social-link">Twitter</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>MICO</h4>
+                <p>Junior Developer | IT Graduate</p>
+            </div>
+            <div class="footer-col">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#credentials">Credentials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>CONTACT</h4>
+                <a href="mailto:rannces.mallari@email.com">Email</a>
+                <p>+63 (123) 456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 RANNCES MICO C. MALLARI. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
